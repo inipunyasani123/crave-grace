@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { SURAT, suratBySlug } from '@/lib/surat'
 
-const SITE = 'https://crave-grace.vercel.app'
+const SITE = 'https://crave-grace.pintuweb.id'
 
 export function generateStaticParams() {
   return SURAT.map((s) => ({ slug: s.slug }))

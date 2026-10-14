@@ -4,7 +4,7 @@ import CheckoutPage from '@/components/CheckoutPage'
 export const metadata = {
   title: 'Pemesanan — Positive Crave',
   description: 'Selesaikan pemesanan Anda — untuk berdua, atau dibungkus sebagai hadiah dengan kartu tulisan tangan.',
-  alternates: { canonical: 'https://crave-grace.vercel.app/checkout' },
+  alternates: { canonical: 'https://crave-grace.pintuweb.id/checkout' },
   robots: { index: false, follow: true },
 }
 

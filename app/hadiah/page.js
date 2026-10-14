@@ -6,7 +6,7 @@ export const metadata = {
   title: 'Menyusun Hadiah — Positive Crave',
   description:
     'Pilih barangnya, kertas pembungkusnya, dan tulis kartunya sendiri. Lihat pratinjau hadiah Anda sebelum dipesan — termasuk pilihan tanggal antar dan nota tanpa harga.',
-  alternates: { canonical: 'https://crave-grace.vercel.app/hadiah' },
+  alternates: { canonical: 'https://crave-grace.pintuweb.id/hadiah' },
 }
 
 const CATATAN = [

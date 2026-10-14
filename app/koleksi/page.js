@@ -2,7 +2,7 @@ import Link from 'next/link'
 import ProdukGambar from '@/components/ProdukGambar'
 import { BABAK, PRODUK, rupiah } from '@/lib/katalog'
 
-const SITE = 'https://crave-grace.vercel.app'
+const SITE = 'https://crave-grace.pintuweb.id'
 
 export const metadata = {
   title: 'Susunan Acara — Koleksi Positive Crave',

@@ -2,7 +2,7 @@
 
 Landing page Positive Crave konsep "Grace": keintiman yang anggun — sensualitas dengan sofistikasi yang halus.
 
-**Demo live:** https://crave-grace.vercel.app
+**Demo live:** https://crave-grace.pintuweb.id
 
 ![Tangkapan layar Positive Crave](public/og.jpg)
 

@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation'
 import ProdukGambar from '@/components/ProdukGambar'
 import { BUNGKUS, PRODUK, babakDari, produkBySlug, rupiah } from '@/lib/katalog'
 
-const SITE = 'https://crave-grace.vercel.app'
+const SITE = 'https://crave-grace.pintuweb.id'
 
 export function generateStaticParams() {
   return PRODUK.map((p) => ({ slug: p.slug }))

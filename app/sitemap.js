@@ -1,7 +1,7 @@
 import { PRODUK } from '@/lib/katalog'
 import { SURAT } from '@/lib/surat'
 
-const SITE = 'https://crave-grace.vercel.app'
+const SITE = 'https://crave-grace.pintuweb.id'
 
 export default function sitemap() {
   const now = new Date()

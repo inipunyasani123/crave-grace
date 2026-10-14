@@ -6,10 +6,10 @@ import Footer from "@/components/Footer";
 const display = Playfair_Display({ subsets: ["latin"], variable: "--font-display", weight: ["500","600","700"], style: ["normal","italic"] });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
-const __jsonld = {"@context":"https://schema.org","@type":"CreativeWork","name":"Positive Crave — Konsep Grace","description":"Landing page brand keintiman","url":"https://crave-grace.vercel.app"};
+const __jsonld = {"@context":"https://schema.org","@type":"CreativeWork","name":"Positive Crave — Konsep Grace","description":"Landing page brand keintiman","url":"https://crave-grace.pintuweb.id"};
 
 export const metadata = {
-  metadataBase: new URL("https://crave-grace.vercel.app"),
+  metadataBase: new URL("https://crave-grace.pintuweb.id"),
   title: "Positive Crave — Konsep Grace",
   description: "Landing page Positive Crave konsep \"Grace\": keintiman yang anggun — sensualitas dengan sofistikasi yang halus.",
   applicationName: "Positive Crave",
@@ -17,11 +17,11 @@ export const metadata = {
   authors: [{ name: "Positive Crave" }],
   creator: "Positive Crave",
   publisher: "Positive Crave",
-  alternates: { canonical: "https://crave-grace.vercel.app" },
+  alternates: { canonical: "https://crave-grace.pintuweb.id" },
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://crave-grace.vercel.app",
+    url: "https://crave-grace.pintuweb.id",
     siteName: "Positive Crave",
     title: "Positive Crave — Konsep Grace",
     description: "Landing page Positive Crave konsep \"Grace\": keintiman yang anggun — sensualitas dengan sofistikasi yang halus.",

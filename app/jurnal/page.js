@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Surat untuk Berdua — Positive Crave',
   description:
     'Tiga surat pendek dari Positive Crave: tentang malam yang tidak harus sempurna, memberi hadiah yang tidak bisa dipajang, dan percakapan sesudahnya.',
-  alternates: { canonical: 'https://crave-grace.vercel.app/jurnal' },
+  alternates: { canonical: 'https://crave-grace.pintuweb.id/jurnal' },
 }
 
 export default function SuratPage() {

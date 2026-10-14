@@ -3,7 +3,7 @@ import AkunForm from '@/components/AkunForm'
 export const metadata = {
   title: 'Masuk — Positive Crave',
   description: 'Masuk ke akun Positive Crave untuk melihat hadiah dalam perjalanan dan tanggal yang Anda simpan.',
-  alternates: { canonical: 'https://crave-grace.vercel.app/masuk' },
+  alternates: { canonical: 'https://crave-grace.pintuweb.id/masuk' },
   robots: { index: false, follow: true },
 }
 
