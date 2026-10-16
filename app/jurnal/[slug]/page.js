@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { SURAT, suratBySlug } from '@/lib/surat'
-
-const SITE = 'https://crave-grace.pintuweb.id'
+import { meta, SITE } from '@/lib/seo'
 
 export function generateStaticParams() {
   return SURAT.map((s) => ({ slug: s.slug }))
@@ -12,12 +11,7 @@ export async function generateMetadata({ params }) {
   const { slug } = await params
   const s = suratBySlug(slug)
   if (!s) return {}
-  return {
-    title: `${s.judul} — Surat untuk Berdua`,
-    description: s.ringkas,
-    alternates: { canonical: `${SITE}/jurnal/${s.slug}` },
-    openGraph: { type: 'article' },
-  }
+  return meta({ title: s.judul, description: s.ringkas, path: `/jurnal/${s.slug}`, type: 'article' })
 }
 
 function Blok({ b }) {

@@ -4,9 +4,9 @@ import Link from 'next/link'
    digambar dengan CSS supaya tidak mengulang foto produk. */
 export default function HadiahBand() {
   return (
-    <section aria-labelledby="judul-hadiah-band" className="bg-plum py-20 text-silk md:py-24">
-      <div className="mx-auto grid max-w-6xl items-center gap-14 px-6 md:grid-cols-2">
-        <div aria-hidden="true" className="relative mx-auto h-56 w-72">
+    <section aria-labelledby="judul-hadiah-band" className="bg-plum py-14 text-silk md:py-24">
+      <div className="mx-auto grid max-w-6xl items-center gap-10 px-6 md:grid-cols-2 md:gap-14">
+        <div aria-hidden="true" className="relative mx-auto h-56 w-72 max-sm:origin-center max-sm:scale-[0.8] max-sm:-my-6">
           <div className="absolute inset-x-6 bottom-0 h-44 bg-[#f3e9dc] shadow-[0_30px_40px_-24px_rgb(0_0_0/0.6)]">
             <span className="absolute inset-y-0 left-[40%] w-4 bg-plum" />
             <span className="absolute inset-x-0 top-[40%] h-4 bg-plum" />

@@ -6,7 +6,7 @@ export default function FeaturedProducts() {
   const unggulan = PRODUK.filter((p) => p.unggulan)
 
   return (
-    <section id="produk" className="relative overflow-hidden bg-silk py-20 md:py-28">
+    <section id="produk" className="relative overflow-hidden bg-silk py-16 md:py-28">
       <div aria-hidden="true" className="laid-silk absolute inset-0" />
       <div className="relative z-10 mx-auto max-w-6xl px-6">
         <div className="mx-auto mb-12 max-w-xl text-center">
@@ -16,14 +16,14 @@ export default function FeaturedProducts() {
           </h2>
         </div>
 
-        <ul className="grid grid-cols-2 gap-4 sm:gap-8 md:grid-cols-3">
+        <ul className="no-scrollbar -mx-6 flex snap-x snap-mandatory scroll-px-6 gap-4 overflow-x-auto px-6 pb-1 md:mx-0 md:grid md:grid-cols-3 md:gap-8 md:overflow-visible md:px-0 md:pb-0">
           {unggulan.map((p) => {
             const b = babakDari(p.babak)
             return (
-              <li key={p.slug} className="last:col-span-2 md:last:col-span-1">
+              <li key={p.slug} className="w-[64%] shrink-0 snap-start md:w-auto">
                 <article className="envelope group relative flex h-full flex-col bg-silk-2 p-2.5">
                   <div className="relative aspect-square overflow-hidden">
-                    <ProdukGambar p={p} sizes="(min-width: 768px) 33vw, 50vw" className="transition-transform duration-700 ease-out group-hover:scale-[1.04]" />
+                    <ProdukGambar p={p} sizes="(min-width: 768px) 33vw, 64vw" className="transition-transform duration-700 ease-out group-hover:scale-[1.04]" />
                   </div>
                   <div className="flex flex-1 flex-col px-3 pt-5 pb-3 text-center sm:px-5 sm:pt-6 sm:pb-4">
                     <p className="micro text-plum-soft">Babak {b.no}</p>

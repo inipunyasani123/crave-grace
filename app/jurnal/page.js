@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import { SURAT } from '@/lib/surat'
+import { meta } from '@/lib/seo'
 
-export const metadata = {
-  title: 'Surat untuk Berdua — Positive Crave',
+export const metadata = meta({
+  title: 'Surat untuk Berdua',
   description:
     'Tiga surat pendek dari Positive Crave: tentang malam yang tidak harus sempurna, memberi hadiah yang tidak bisa dipajang, dan percakapan sesudahnya.',
-  alternates: { canonical: 'https://crave-grace.pintuweb.id/jurnal' },
-}
+  path: '/jurnal',
+})
 
 export default function SuratPage() {
   return (

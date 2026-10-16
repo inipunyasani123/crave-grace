@@ -1,13 +1,14 @@
 import { Suspense } from 'react'
 import Link from 'next/link'
 import PenyusunHadiah from '@/components/PenyusunHadiah'
+import { meta } from '@/lib/seo'
 
-export const metadata = {
-  title: 'Menyusun Hadiah — Positive Crave',
+export const metadata = meta({
+  title: 'Menyusun Hadiah',
   description:
-    'Pilih barangnya, kertas pembungkusnya, dan tulis kartunya sendiri. Lihat pratinjau hadiah Anda sebelum dipesan — termasuk pilihan tanggal antar dan nota tanpa harga.',
-  alternates: { canonical: 'https://crave-grace.pintuweb.id/hadiah' },
-}
+    'Pilih barangnya, kertas pembungkusnya, dan tulis kartunya sendiri. Lihat pratinjau hadiah sebelum dipesan, termasuk tanggal antar dan nota tanpa harga.',
+  path: '/hadiah',
+})
 
 const CATATAN = [
   ['Kartu ditulis tangan', 'Pesan Anda kami salin dengan tinta di kartu katun, bukan dicetak.'],

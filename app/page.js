@@ -3,7 +3,6 @@ import Ritual from '@/components/Ritual'
 import FeaturedProducts from '@/components/FeaturedProducts'
 import HadiahBand from '@/components/HadiahBand'
 import USPSection from '@/components/USPSection'
-import TestimonialsCarousel from '@/components/TestimonialsCarousel'
 import SuratTeaser from '@/components/SuratTeaser'
 import AboutAndFAQ from '@/components/AboutAndFAQ'
 import ContactSupport from '@/components/ContactSupport'
@@ -18,7 +17,6 @@ export default function Home() {
       <FeaturedProducts />
       <HadiahBand />
       <USPSection />
-      <TestimonialsCarousel />
       <SuratTeaser />
       <AboutAndFAQ />
       <ContactSupport />

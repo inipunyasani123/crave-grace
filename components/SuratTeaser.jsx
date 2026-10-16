@@ -3,7 +3,7 @@ import { SURAT } from '@/lib/surat'
 
 export default function SuratTeaser() {
   return (
-    <section id="surat" className="laid-silk bg-silk-2 py-20 md:py-28">
+    <section id="surat" className="laid-silk bg-silk-2 py-16 md:py-28">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mx-auto mb-14 max-w-xl text-center">
           <p className="micro mb-5 text-gilt-ink">Surat untuk Berdua</p>

@@ -6,12 +6,12 @@ import Footer from "@/components/Footer";
 const display = Playfair_Display({ subsets: ["latin"], variable: "--font-display", weight: ["500","600","700"], style: ["normal","italic"] });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
-const __jsonld = {"@context":"https://schema.org","@type":"CreativeWork","name":"Positive Crave — Konsep Grace","description":"Landing page brand keintiman","url":"https://crave-grace.pintuweb.id"};
+const __jsonld = {"@context":"https://schema.org","@type":"CreativeWork","name":"Positive Crave — Konsep Grace","description":"Konsep desain toko brand keintiman pasangan bergaya amplop sutra, dibuat untuk kontes brief Positive Crave","url":"https://crave-grace.pintuweb.id"};
 
 export const metadata = {
   metadataBase: new URL("https://crave-grace.pintuweb.id"),
   title: "Positive Crave — Konsep Grace",
-  description: "Landing page Positive Crave konsep \"Grace\": keintiman yang anggun — sensualitas dengan sofistikasi yang halus.",
+  description: "Konsep toko Positive Crave yang anggun: koleksi disusun seperti susunan acara tiga babak, penyusun hadiah berkartu, dan surat untuk berdua.",
   applicationName: "Positive Crave",
   keywords: ["intimacy brand", "wellness pasangan", "landing page elegan", "desain web"],
   authors: [{ name: "Positive Crave" }],
@@ -22,15 +22,15 @@ export const metadata = {
     type: "website",
     locale: "id_ID",
     url: "https://crave-grace.pintuweb.id",
-    siteName: "Positive Crave",
+    siteName: "Positive Crave — Konsep Grace",
     title: "Positive Crave — Konsep Grace",
-    description: "Landing page Positive Crave konsep \"Grace\": keintiman yang anggun — sensualitas dengan sofistikasi yang halus.",
+    description: "Konsep toko Positive Crave yang anggun: koleksi disusun seperti susunan acara tiga babak, penyusun hadiah berkartu, dan surat untuk berdua.",
     images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Positive Crave — Konsep Grace" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Positive Crave — Konsep Grace",
-    description: "Landing page Positive Crave konsep \"Grace\": keintiman yang anggun — sensualitas dengan sofistikasi yang halus.",
+    description: "Konsep toko Positive Crave yang anggun: koleksi disusun seperti susunan acara tiga babak, penyusun hadiah berkartu, dan surat untuk berdua.",
     images: ["/og.jpg"],
   },
   robots: {

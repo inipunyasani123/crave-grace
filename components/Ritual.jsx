@@ -36,7 +36,7 @@ const babak = [
 
 export default function Ritual() {
   return (
-    <section id="ritual" className="relative overflow-hidden bg-silk-2 py-20 md:py-28">
+    <section id="ritual" className="relative overflow-hidden bg-silk-2 py-16 md:py-28">
       <div aria-hidden="true" className="laid-silk absolute inset-0" />
 
       <div className="relative z-10 mx-auto max-w-5xl px-6">

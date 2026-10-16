@@ -2,8 +2,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import ProdukGambar from '@/components/ProdukGambar'
 import { BUNGKUS, PRODUK, babakDari, produkBySlug, rupiah } from '@/lib/katalog'
-
-const SITE = 'https://crave-grace.pintuweb.id'
+import { meta, SITE } from '@/lib/seo'
 
 export function generateStaticParams() {
   return PRODUK.map((p) => ({ slug: p.slug }))
@@ -14,12 +13,9 @@ export async function generateMetadata({ params }) {
   const p = produkBySlug(slug)
   if (!p) return {}
   const b = babakDari(p.babak)
-  return {
-    title: `${p.nama} — Babak ${b.no}, Positive Crave`,
-    description: `${p.ringkas} Bisa dibungkus sebagai hadiah dengan kartu tulisan tangan.`,
-    alternates: { canonical: `${SITE}/produk/${p.slug}` },
-    openGraph: p.image ? { images: [{ url: p.image }] } : undefined,
-  }
+  // Deskripsi lengkap bila muat 155 karakter; bila tidak, cukup ringkasannya.
+  const panjang = `${p.ringkas} Bisa dibungkus sebagai hadiah dengan kartu tulisan tangan.`
+  return meta({ title: `${p.nama} · Babak ${b.no}`, description: panjang.length <= 155 ? panjang : p.ringkas, path: `/produk/${p.slug}` })
 }
 
 export default async function ProdukPage({ params }) {
