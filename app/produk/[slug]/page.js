@@ -113,7 +113,7 @@ export default async function ProdukPage({ params }) {
               </li>
             ))}
           </ul>
-          <Link href={`/hadiah?produk=${p.slug}`} className="micro mt-10 inline-block border-b border-gilt pb-1 text-plum hover:text-rose">
+          <Link href={`/hadiah?produk=${p.slug}`} className="micro mt-10 inline-block border-b border-gilt pb-1 text-plum hover:text-rose sentuh-x">
             Susun hadiahnya & tulis kartunya
           </Link>
         </div>
