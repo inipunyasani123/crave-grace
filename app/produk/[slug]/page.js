@@ -39,9 +39,9 @@ export default async function ProdukPage({ params }) {
       <section className="laid-silk relative overflow-clip bg-silk pt-28 pb-20 md:pt-36 md:pb-24">
         <div className="mx-auto max-w-6xl px-6">
           <nav aria-label="Remah roti" className="micro mb-12 flex flex-wrap items-center justify-center gap-2 text-plum-soft">
-            <Link href="/" className="hover:text-rose">Beranda</Link>
+            <Link href="/" className="hover:text-rose sentuh">Beranda</Link>
             <span aria-hidden="true">·</span>
-            <Link href={`/koleksi#babak-${b.no.toLowerCase()}`} className="hover:text-rose">Babak {b.no}</Link>
+            <Link href={`/koleksi#babak-${b.no.toLowerCase()}`} className="hover:text-rose sentuh">Babak {b.no}</Link>
             <span aria-hidden="true">·</span>
             <span className="text-plum" aria-current="page">{p.nama}</span>
           </nav>

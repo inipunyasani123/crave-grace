@@ -60,7 +60,7 @@ export default async function SuratArtikel({ params }) {
     <article className="bg-silk-2 pt-28 pb-20 md:pt-36 md:pb-28">
       <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <nav aria-label="Remah roti" className="micro mb-10 text-center text-plum-soft">
-          <Link href="/jurnal" className="hover:text-rose">Surat untuk Berdua</Link> · Surat {s.no}
+          <Link href="/jurnal" className="hover:text-rose sentuh">Surat untuk Berdua</Link> · Surat {s.no}
         </nav>
 
         {/* Lembar surat */}

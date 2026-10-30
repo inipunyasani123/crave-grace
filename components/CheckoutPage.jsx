@@ -60,7 +60,7 @@ export default function CheckoutPage() {
                 Ini purwarupa desain untuk kontes — tidak ada pesanan atau pembayaran yang diproses. Di toko
                 sungguhan, {p.nama} dibungkus dengan {w.nama.toLowerCase()}{hadiah ? ' dan dikirim langsung ke penerima hadiah' : ''}.
               </p>
-              <button onClick={() => setSelesai(false)} className="micro mt-8 text-plum hover:text-rose">Kembali ke formulir</button>
+              <button onClick={() => setSelesai(false)} className="micro mt-8 text-plum hover:text-rose sentuh">Kembali ke formulir</button>
             </div>
           ) : (
             <form onSubmit={kirim} className="space-y-10">
@@ -132,8 +132,8 @@ export default function CheckoutPage() {
               </div>
             </dl>
             <div className="mt-5 flex flex-wrap gap-x-6 gap-y-2">
-              <Link href={`/produk/${p.slug}`} className="micro text-plum hover:text-rose">← Barangnya</Link>
-              <Link href={`/hadiah?produk=${p.slug}`} className="micro text-plum hover:text-rose">Tulis kartu</Link>
+              <Link href={`/produk/${p.slug}`} className="micro text-plum hover:text-rose sentuh">← Barangnya</Link>
+              <Link href={`/hadiah?produk=${p.slug}`} className="micro text-plum hover:text-rose sentuh">Tulis kartu</Link>
             </div>
           </aside>
         </div>

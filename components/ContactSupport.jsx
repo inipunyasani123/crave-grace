@@ -41,7 +41,7 @@ export default function ContactSupport() {
                 <p className="mt-3 text-sm leading-relaxed text-plum-soft">
                   Ini purwarupa desain untuk kontes, jadi suratnya tidak terkirim ke mana pun.
                 </p>
-                <button type="button" onClick={() => setTerkirim(false)} className="micro mt-6 border-b border-plum/30 pb-1 text-plum hover:border-plum">
+                <button type="button" onClick={() => setTerkirim(false)} className="micro mt-6 border-b border-plum/30 pb-1 text-plum hover:border-plum sentuh-x">
                   Tulis surat lain
                 </button>
               </div>

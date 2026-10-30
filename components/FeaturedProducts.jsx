@@ -40,7 +40,7 @@ export default function FeaturedProducts() {
         </ul>
 
         <div className="mt-12 text-center">
-          <Link href="/koleksi" className="micro border-b border-gilt pb-1 text-plum hover:text-rose">Seluruh susunan acara</Link>
+          <Link href="/koleksi" className="micro border-b border-gilt pb-1 text-plum hover:text-rose sentuh-x">Seluruh susunan acara</Link>
         </div>
         <p className="micro mt-8 text-center leading-[1.7] text-plum-soft">
           Harga dan nama barang di atas adalah contoh untuk keperluan purwarupa desain.
